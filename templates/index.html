@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Guardian: Detect & Combat Disease</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="leaf-canvas">
+        <div class="leaf-container">
+            <h1 class="coffee-title">Coffee Guardian</h1>
+            <p class="intro-text">Protect your crops, upload a leaf image for disease detection:</p>
+            <form id="uploadForm" method="post" enctype="multipart/form-data">
+                <div class="upload-box">
+                    <input type="file" name="file" id="fileInput" accept=".jpg, .jpeg, .png" hidden>
+                    <label for="fileInput" class="file-label">Choose File</label>
+                    <input type="submit" value="Diagnose" class="leaf-button">
+                </div>
+            </form>
+            <div id="imageContainer"></div>
+            <div id="prediction"></div>
+            <div id="recommendation"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+
+</html>
