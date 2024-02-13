@@ -47,3 +47,26 @@ Four CNN models were developed and evaluated:
 - Model 4: Most complex CNN with additional convolution layer and increased units in dense layers.
 
 ## **Results**
+
+- **Model Performance:** Each model iteration showed significant improvement in accuracy, indicating the effectiveness of incorporating more sophisticated architectures.
+
+- **Feature Extraction:** Convolutional layers proved crucial in capturing hierarchical and intricate features within leaf images, resulting in higher classification accuracy.
+
+- **Optimization Techniques:** Utilizing the Adam optimizer contributed to model convergence and enhanced performance across different architectures.
+
+# **Next Steps**
+
+**Monitoring and Improvement:**
+
+- Continuous monitoring: Track the model's performance in real-world settings to ensure accuracy and effectiveness.
+  Retraining: Regularly update the model with new data and evolving disease patterns to maintain performance.
+
+**Knowledge Sharing and Community Engagement:**
+
+- Education campaigns: Empower farmers with knowledge on disease prevention, early detection, and sustainable practices.
+- User feedback: Collect feedback from farmers to inform future improvements and iterations of the model.
+
+**Sustainability and Expansion:**
+
+- Long-term planning: Develop a sustainable plan for resource allocation, community involvement, and future scaling.
+- Testing phase: Thoroughly test the model in real-world settings with the help of farmers and experts.
